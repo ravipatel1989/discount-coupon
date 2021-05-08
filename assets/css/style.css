@@ -1,0 +1,50 @@
+#discount_coupon_meta_box #product_details{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#discount_coupon_meta_box #product_details td, #discount_coupon_meta_box #product_details th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#discount_coupon_meta_box #product_details tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#discount_coupon_meta_box #product_details .btnDelete {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 1px 6px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+#discount_coupon_meta_box #product_details .btnDelete:hover {
+  background-color: RoyalBlue;
+}
+
+/*.fa{
+  display: none!important;
+}*/
+
+p.error_msg {
+    color: red;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.meta-box-sortables input {
+    width: 100%;
+}
+
+p.error {
+    color: red;
+    font-weight: 700;
+    font-size: unset;
+    border-block-color: red;
+    border: 2px solid;
+}
